@@ -45,3 +45,42 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
+/* Nav Bar */
+nav {
+    background-color: #212529;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: center;
+    border-right: 3px solid white;
+}
+
+ul > a:last-child > li {
+    border: 0;
+}
+
+li.active_page {
+    background-color: #495057;
+}
+
+li:hover {
+    color: #212529;
+    background-color: #adb5bd;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
