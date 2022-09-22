@@ -1,0 +1,9 @@
+@media only screen and (max-width: 635px) {
+    .nav-text {
+        display: none;
+    }
+
+    .icon {
+        margin: 0s;
+    }
+}
