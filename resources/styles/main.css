@@ -1,0 +1,86 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"); /* Noto Serif */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"); /* Roboto Mono */
+
+/* Global Styles */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+p,
+table {
+    font-family: "Noto Serif", Georgia, "Times New Roman", Times, serif;
+}
+
+li {
+    font-family: "Roboto Mono", Consolas, "Courier New", Courier, monospace;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 0.75rem;
+}
+
+/* Header - start*/
+/* Banner */
+.header-image {
+    width: 100%;
+    height: 12rem;
+    background-image: linear-gradient(black, black), url(../img/book_large.jpg);
+    background-size: cover;
+    background-blend-mode: hue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav Bar */
+nav {
+    background-color: #212529;
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.5rem;
+    text-align: center;
+    border-right: 3px solid white;
+}
+
+ul > a:last-child > li {
+    border: 0;
+}
+
+li.active_page {
+    background-color: #495057;
+}
+
+li:hover {
+    color: #212529;
+    background-color: #adb5bd;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
